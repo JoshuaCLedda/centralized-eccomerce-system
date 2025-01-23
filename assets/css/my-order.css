@@ -1,0 +1,146 @@
+
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .card {
+            margin-bottom: 20px;
+            border: 1px solid #e3e6e8;
+            border-radius: 8px;
+        }
+        .card-header {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 8px 8px 0 0;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .btn-cancel {
+            background-color: #dc3545; /* Red color for cancel */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-cancel:hover {
+            background-color: #c82333; /* Darker red */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .modal {
+            display : none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.6); 
+            padding-top: 60px; 
+        }
+        .modal-content {
+            background-color: #ffffff;
+            margin: 5% auto; 
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; 
+            max-width: 500px; 
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-title {
+            font-size: 24px;
+            margin: 0;
+        }
+        .close {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+        .modal-body {
+            margin-top: 15px;
+        }
+        select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        /* Back button style */
+        .back-button-container {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+        
+        .back-button {
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #007bff; /* Shopee-like color */
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        .back-button:hover {
+            color: #0056b3;
+        }
+        
+        .back-button::before {
+            content: '←'; /* Arrow symbol */
+            margin-right: 5px;
+        }

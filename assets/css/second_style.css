@@ -1,0 +1,35 @@
+/* Color Theme: Yellow and Green */
+body {
+  background-color: #f4f7fa; /* Light background */
+}
+
+a {
+  color: #FFD700; /* Yellow */
+}
+
+a:hover {
+  color: #32CD32; /* Green */
+}
+
+.nav-link.active.h-blue {
+  background: #FFD700 !important; /* Yellow */
+}
+
+.nav-link.active.h-red {
+  background: #32CD32 !important; /* Green */
+}
+
+/* Navigation styles */
+.pcoded-navbar {
+  background: linear-gradient(-135deg, #FFD700 0%, #32CD32 100%);
+}
+
+.pcoded-navbar .pcoded-inner-navbar > li > a {
+  color: #888; /* Default link color */
+}
+
+.pcoded-navbar .pcoded-inner-navbar > li.active > a {
+  background: rgba(4, 169, 245, 0.1); /* Active link background */
+}
+
+/* Additional styles can be added here */ 
